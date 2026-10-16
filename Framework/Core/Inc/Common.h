@@ -1,8 +1,8 @@
-#pragma once
+ #pragma once
 
 // all external stuff
-#define Win32_LEAN_ANDMEAN // eliminates all unnecessary windows APIs for a smaller build
-#define MONINMAX // removes min/max keywords so we can create those functions
+#define Win32_LEAN_AND_MEAN // eliminates all unnecessary windows APIs for a smaller build
+#define NOMINMAX // removes min/max keywords so we can create those functions
 
 // win 32 headers
 #include <objbase.h>
