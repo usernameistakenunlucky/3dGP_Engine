@@ -1,0 +1,16 @@
+{
+  "permissions":
+  {
+    "defaultMode": "plan",
+    "deny":
+    [
+      "PowerShell",
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "Bash",
+      "Read(./Library/**)",
+      "Read(./Temp/**)"
+    ]
+  }
+}
