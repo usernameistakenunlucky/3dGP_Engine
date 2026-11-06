@@ -17,56 +17,56 @@ void DoColorState::Initialize()
 
 	// front
 	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Red });
-	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Red });
-	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Orange });
+	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Yellow });
 
-	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Blue });
-	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Blue });
-	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Blue });
+	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Orange });
+	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Yellow });
 
 	// right
-	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Green });
-	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Green });
-	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Green });
+	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Orange });
+	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Yellow });
 
-	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Purple });
-	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Purple });
-	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Purple });
+	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Yellow });
 	// left
-	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Yellow });
-	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Yellow });
+	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Red });
+	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Orange });
 	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Yellow });
 
-	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Red });
 	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Orange });
-	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Orange });
+	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Yellow });
 
 	// back
-	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Cyan });
-	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Cyan });
-	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Cyan });
+	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Red });
+	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Yellow });
 
-	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Magenta });
-	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Magenta });
-	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Magenta });
+	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Red });
+	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Yellow });
 
 	// top
-	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::White });
-	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::White });
-	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::White });
+	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ { -1.0f,  1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Yellow });
 
-	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Gray });
-	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Gray });
-	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Gray });
+	mVertices.push_back({ { -1.0f,  1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ {  1.0f,  1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ {  1.0f,  1.0f, -1.0f }, Colors::Yellow });
 
 	// bottom
-	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Black });
-	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Black });
-	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Black });
+	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ {  1.0f, -1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Yellow });
 
-	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Pink });
-	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Pink });
-	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Pink });
+	mVertices.push_back({ {  1.0f, -1.0f, -1.0f }, Colors::Red });
+	mVertices.push_back({ { -1.0f, -1.0f,  1.0f }, Colors::Orange });
+	mVertices.push_back({ { -1.0f, -1.0f, -1.0f }, Colors::Yellow });
 
 
 	mMeshBuffer.Initialize(mVertices.data(), sizeof(VertexPC), mVertices.size());
